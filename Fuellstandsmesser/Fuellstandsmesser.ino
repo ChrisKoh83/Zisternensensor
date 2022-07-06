@@ -60,8 +60,10 @@ const char* ssid = "Heimnetz-Name";
 const char* pass = "Heimnetz-Passwort";
 
 // An eigene Zisterne anpassen (zur Berechnung der Füllmenge)
-const int A = 3140;                       // Grundfläche der Zisterne in cm^2 (d * d * 3,14 / 4)
-const int maxFuellhoehe = 3040;           // Füllhöhe der Zisterne in mm
+// const int A = 3140;                       // Grundfläche der Zisterne in cm^2 (d * d * 3,14 / 4)
+const int A = 41786;                       // Grundfläche der Zisterne in cm^2 (d * d * 3,14 / 4)
+// const int maxFuellhoehe = 3040;           // Füllhöhe der Zisterne in mm
+const int maxFuellhoehe = 1365;           // Füllhöhe der Zisterne in mm
 
 int atmDruck, messDruck, vergleichswert;
 int messSchritt, wassersaeule;
